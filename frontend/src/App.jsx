@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:5000/api";
+const API = "https://car-rental-project-t799.onrender.com/api";
 
 function App() {
   const [cars, setCars] = useState([]);
